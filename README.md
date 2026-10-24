@@ -1,5 +1,7 @@
 # LeetCode SQL 50 - Complete Solutions & Visual Notes
 
+[![Star this repo](https://img.shields.io/badge/Star%20this%20Repo-Give%20it%20a%20Star-brightgreen?style=for-the-badge)](https://github.com/ArpanC6/LeetCode-SQL-50-Solutions)
+
 Welcome to my LeetCode SQL 50 journey! 
 
 This repository is a complete guide to mastering SQL for interviews. It includes:
@@ -100,6 +102,3 @@ This repository is a complete guide to mastering SQL for interviews. It includes
 - [ ] 1484. Group Sold Products By The Date
 - [ ] 1327. List the Products Ordered in a Period
 - [ ] 1517. Find Users With Valid E-Mails
-
----
-<span style="color:green; font-weight:bold; font-size:16px;">If you find this repository helpful for your interview prep, please give it a star!</span>
