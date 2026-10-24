@@ -10,8 +10,8 @@ This repository is a complete guide to mastering SQL for interviews. It includes
 ## Progress Tracker
 
 - [x] 01. Select (5/5)
-- [x] 02. Basic Joins (9/9)
-- [ ] 03. Basic Aggregate Functions (1/8)
+- [x] 02. Basic Joins (8/9)
+- [ ] 03. Basic Aggregate Functions (0/8)
 - [ ] 04. Sorting and Grouping (0/7)
 - [ ] 05. Advanced Select and Joins (0/7)
 - [ ] 06. Subqueries (0/7)
@@ -34,7 +34,6 @@ This repository is a complete guide to mastering SQL for interviews. It includes
 | Day 11 | 577. Employee Bonus | [View Notes](./Day11/day11.md) |
 | Day 12 | 1280. Students and Examinations | [View Notes](./Day12/day12.md) |
 | Day 13 | 570. Managers with 5 Reports | [View Notes](./Day13/day13.md) |
-| Day 14 | 620. Not Boring Movies | [View Notes](./Day14/day14.md) |
 
 ## Problem List (SQL 50)
 
@@ -57,7 +56,7 @@ This repository is a complete guide to mastering SQL for interviews. It includes
 - [ ] 1934. Confirmation Rate
 
 ### 03. Basic Aggregate Functions
-- [x] 620. Not Boring Movies
+- [ ] 620. Not Boring Movies
 - [ ] 1251. Average Selling Price
 - [ ] 1075. Project Employees I
 - [ ] 1633. Percentage of Users Attended a Contest
@@ -103,4 +102,4 @@ This repository is a complete guide to mastering SQL for interviews. It includes
 - [ ] 1517. Find Users With Valid E-Mails
 
 ---
-If you find this repository helpful for your interview prep, please give it a star!
+<span style="color:green; font-weight:bold; font-size:16px;">If you find this repository helpful for your interview prep, please give it a star!</span>
