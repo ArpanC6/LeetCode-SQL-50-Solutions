@@ -13,7 +13,7 @@ This repository is a complete guide to mastering SQL for interviews. It includes
 
 - [x] 01. Select (5/5)
 - [x] 02. Basic Joins (9/9)
-- [ ] 03. Basic Aggregate Functions (4/8)
+- [ ] 03. Basic Aggregate Functions (5/8)
 - [ ] 04. Sorting and Grouping (0/7)
 - [ ] 05. Advanced Select and Joins (0/7)
 - [ ] 06. Subqueries (0/7)
@@ -41,6 +41,7 @@ This repository is a complete guide to mastering SQL for interviews. It includes
 | Day 16 | 1251. Average Selling Price | [View Notes](./Day16/day16.md) |
 | Day 17 | 1075. Project Employees I | [View Notes](./Day17/day17.md) |
 | Day 18 | 1633. Percentage of Users Attended a Contest | [View Notes](./Day18/day18.md) |
+| Day 19 | 1211. Queries Quality and Percentage | [View Notes](./Day19/day19.md) |
 
 ## Problem List (SQL 50)
 
@@ -67,7 +68,7 @@ This repository is a complete guide to mastering SQL for interviews. It includes
 - [x] 1251. Average Selling Price
 - [x] 1075. Project Employees I
 - [x] 1633. Percentage of Users Attended a Contest
-- [ ] 1211. Queries Quality and Percentage
+- [x] 1211. Queries Quality and Percentage
 - [ ] 1193. Monthly Transactions I
 - [ ] 1174. Immediate Food Delivery II
 - [ ] 550. Game Play Analysis IV
