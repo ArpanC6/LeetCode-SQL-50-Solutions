@@ -9,11 +9,6 @@
 
 ---
 
-## Visual Guide (One-Page Summary)
-
-![1934 Visual Guide](./1934_Confirmation_Rate.png)
-
----
 
 ## Problem Statement
 

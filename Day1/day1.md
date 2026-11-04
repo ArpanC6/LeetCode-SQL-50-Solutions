@@ -3,7 +3,13 @@
 **Difficulty:** Easy
 **Topic:** Select / Basic Filtering
 **LeetCode:** https://leetcode.com/problems/recyclable-and-low-fat-products/
-**Solved on:** [7.10.2026]
+**Solved on:** 07/10/2026
+
+---
+
+## Visual Guide (One-Page Summary)
+
+![1757 Visual Guide](./1757_Recyclable_and_Low_Fat_Products.png)
 
 ---
 
@@ -19,16 +25,16 @@
 
 - `product_id` is the primary key (unique value).
 - `low_fats` is an ENUM of type ('Y', 'N')
-  - 'Y' means product is low fat
-  - 'N' means product is not low fat
+  - 'Y' means the product is low fat
+  - 'N' means the product is not low fat
 - `recyclable` is an ENUM of type ('Y', 'N')
-  - 'Y' means product is recyclable
-  - 'N' means product is not recyclable
+  - 'Y' means the product is recyclable
+  - 'N' means the product is not recyclable
 
 ### Task
-Find the IDs of products that are both low fat and recyclable.
+Find the IDs of products that are **both low fat and recyclable**.
 
-Return result in any order.
+Return the result in any order.
 
 ---
 
@@ -52,35 +58,35 @@ Return result in any order.
 | 3          |
 
 ### Explanation
-- Product 0: low fat but not recyclable -> exclude
-- Product 1: low fat and recyclable -> include
-- Product 2: not low fat -> exclude
-- Product 3: low fat and recyclable -> include
-- Product 4: not low fat -> exclude
+- Product 0: Low fat but not recyclable -> exclude
+- Product 1: Low fat and recyclable -> include
+- Product 2: Not low fat -> exclude
+- Product 3: Low fat and recyclable -> include
+- Product 4: Not low fat -> exclude
 
-Only products 1 and 3 satisfy both conditions.
+Only products **1** and **3** satisfy both conditions.
 
 ---
 
 ## Thinking Process
 
-### Step 1: Output ki chai?
-Amake shudhu `product_id` lagbe.
-Tai `SELECT product_id` likhbo.
+### Step 1: What is the output?
+We only need the `product_id`.
+So we write `SELECT product_id`.
 
-### Step 2: Data kon table theke?
-`Products` table theke.
-Tai `FROM Products` likhbo.
+### Step 2: Which table is the data from?
+From the `Products` table.
+So we write `FROM Products`.
 
-### Step 3: Ki condition?
+### Step 3: What are the conditions?
 - Condition 1: `low_fats = 'Y'`
 - Condition 2: `recyclable = 'Y'`
 
-### Step 4: Condition gulo kivabe jukto korbo?
-Duitai true hote hobe, tai `AND` use korbo.
-`AND` mane: duita condition e true hote hobe.
+### Step 4: How do we combine the conditions?
+Both must be true, so we use `AND`.
+`AND` means both conditions must be satisfied.
 
-### Step 5: Puro query ta
+### Step 5: Final Query
 
 ```sql
 SELECT product_id
