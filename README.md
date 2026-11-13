@@ -14,7 +14,7 @@ This repository is a complete guide to mastering SQL for interviews. It includes
 - [x] 01. Select (5/5)
 - [x] 02. Basic Joins (9/9)
 - [x] 03. Basic Aggregate Functions (8/8)
-- [ ] 04. Sorting and Grouping (0/7)
+- [ ] 04. Sorting and Grouping (1/7)
 - [ ] 05. Advanced Select and Joins (0/7)
 - [ ] 06. Subqueries (0/7)
 - [ ] 07. Advanced String Functions (0/7)
@@ -45,6 +45,7 @@ This repository is a complete guide to mastering SQL for interviews. It includes
 | Day 20 | 1193. Monthly Transactions I | [View Notes](./Day20/day20.md) |
 | Day 21 | 1174. Immediate Food Delivery II | [View Notes](./Day21/day21.md) |
 | Day 22 | 550. Game Play Analysis IV | [View Notes](./Day22/day22.md) |
+| Day 23 | 2356. Number of Unique Subjects Taught by Each Teacher | [View Notes](./Day23/day23.md) |
 
 ## Problem List (SQL 50)
 
@@ -77,7 +78,7 @@ This repository is a complete guide to mastering SQL for interviews. It includes
 - [x] 550. Game Play Analysis IV
 
 ### 04. Sorting and Grouping
-- [ ] 2356. Number of Unique Subjects Taught by Each Teacher
+- [x] 2356. Number of Unique Subjects Taught by Each Teacher
 - [ ] 1141. User Activity for the Past 30 Days I
 - [ ] 1070. Product Sales Analysis III
 - [ ] 596. Classes With at Least 5 Students
