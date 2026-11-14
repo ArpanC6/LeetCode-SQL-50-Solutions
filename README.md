@@ -1,54 +1,74 @@
-# LeetCode SQL 50 - Complete Solutions & Visual Notes
+<h1 align="center">LeetCode SQL 50 - Complete Solutions</h1>
 
-[![Star this repo](https://img.shields.io/badge/Star%20this%20Repo-Give%20it%20a%20Star-brightgreen?style=for-the-badge)](https://github.com/ArpanC6/LeetCode-SQL-50-Solutions)
+<p align="center">
+  <img src="https://img.shields.io/badge/SQL-MySQL-blue?style=for-the-badge&logo=mysql" alt="SQL">
+  <img src="https://img.shields.io/badge/LeetCode-SQL%2050-orange?style=for-the-badge&logo=leetcode" alt="LeetCode">
+  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge" alt="Status">
+</p>
 
-Welcome to my LeetCode SQL 50 journey! 
+<p align="center">
+  <a href="https://github.com/ArpanC6/LeetCode-SQL-50-Solutions/stargazers">
+    <img src="https://img.shields.io/badge/Star%20this%20Repo-Give%20it%20a%20Star-brightgreen?style=for-the-badge" alt="Star this repo">
+  </a>
+</p>
+
+<br>
+
+Welcome to my **LeetCode SQL 50** journey! 
 
 This repository is a complete guide to mastering SQL for interviews. It includes:
-- Optimal SQL Queries (Accepted on LeetCode)
-- Line-by-line logic explanations
-- Hand-drawn Visual Notes for quick revision
+- **Optimal SQL Queries** (Accepted on LeetCode)
+- **Line-by-line logic explanations**
+- **Hand-drawn Visual Notes** for quick revision
 
-## Progress Tracker
+> **Note:** This repository is updated daily. If you find it helpful, please consider giving it a star!
 
-- [x] 01. Select (5/5)
-- [x] 02. Basic Joins (9/9)
-- [x] 03. Basic Aggregate Functions (8/8)
-- [ ] 04. Sorting and Grouping (2/7)
-- [ ] 05. Advanced Select and Joins (0/7)
-- [ ] 06. Subqueries (0/7)
-- [ ] 07. Advanced String Functions (0/7)
+---
 
-## Daily Solutions Directory
+<h2 align="center">Progress Tracker</h2>
+
+- [x] **01. Select** (5/5)
+- [x] **02. Basic Joins** (9/9)
+- [x] **03. Basic Aggregate Functions** (8/8)
+- [ ] **04. Sorting and Grouping** (2/7)
+- [ ] **05. Advanced Select and Joins** (0/7)
+- [ ] **06. Subqueries** (0/7)
+- [ ] **07. Advanced String Functions** (0/7)
+
+---
+
+<h2 align="center">Daily Solutions Directory</h2>
 
 | Day | Problem Solved | Link |
-|-----|----------------|------|
-| Day 1 | 1757. Recyclable and Low Fat Products | [View Notes](./Day1/day1.md) |
-| Day 2 | 584. Find Customer Referee | [View Notes](./Day2/day2.md) |
-| Day 3 | 595. Big Countries | [View Notes](./Day3/day3.md) |
-| Day 4 | 1148. Article Views I | [View Notes](./Day4/day4.md) |
-| Day 5 | 1683. Invalid Tweets | [View Notes](./Day5/day5.md) |
-| Day 6 | 1378. Replace Employee ID | [View Notes](./Day6/day6.md) |
-| Day 7 | 1068. Product Sales Analysis I | [View Notes](./Day7/day7.md) |
-| Day 8 | 1581. Customer Who Visited | [View Notes](./Day8/day8.md) |
-| Day 9 | 197. Rising Temperature | [View Notes](./Day9/day9.md) |
-| Day 10 | 1661. Average Time of Process | [View Notes](./Day10/day10.md) |
-| Day 11 | 577. Employee Bonus | [View Notes](./Day11/day11.md) |
-| Day 12 | 1280. Students and Examinations | [View Notes](./Day12/day12.md) |
-| Day 13 | 570. Managers with 5 Reports | [View Notes](./Day13/day13.md) |
-| Day 14 | 1934. Confirmation Rate | [View Notes](./Day14/day14.md) |
-| Day 15 | 620. Not Boring Movies | [View Notes](./Day15/day15.md) |
-| Day 16 | 1251. Average Selling Price | [View Notes](./Day16/day16.md) |
-| Day 17 | 1075. Project Employees I | [View Notes](./Day17/day17.md) |
-| Day 18 | 1633. Percentage of Users Attended a Contest | [View Notes](./Day18/day18.md) |
-| Day 19 | 1211. Queries Quality and Percentage | [View Notes](./Day19/day19.md) |
-| Day 20 | 1193. Monthly Transactions I | [View Notes](./Day20/day20.md) |
-| Day 21 | 1174. Immediate Food Delivery II | [View Notes](./Day21/day21.md) |
-| Day 22 | 550. Game Play Analysis IV | [View Notes](./Day22/day22.md) |
-| Day 23 | 2356. Number of Unique Subjects Taught by Each Teacher | [View Notes](./Day23/day23.md) |
-| Day 24 | 1141. User Activity for the Past 30 Days I | [View Notes](./Day24/day24.md) |
+|:---:|:---|:---:|
+| **Day 1** | 1757. Recyclable and Low Fat Products | [View Notes](./Day1/day1.md) |
+| **Day 2** | 584. Find Customer Referee | [View Notes](./Day2/day2.md) |
+| **Day 3** | 595. Big Countries | [View Notes](./Day3/day3.md) |
+| **Day 4** | 1148. Article Views I | [View Notes](./Day4/day4.md) |
+| **Day 5** | 1683. Invalid Tweets | [View Notes](./Day5/day5.md) |
+| **Day 6** | 1378. Replace Employee ID | [View Notes](./Day6/day6.md) |
+| **Day 7** | 1068. Product Sales Analysis I | [View Notes](./Day7/day7.md) |
+| **Day 8** | 1581. Customer Who Visited | [View Notes](./Day8/day8.md) |
+| **Day 9** | 197. Rising Temperature | [View Notes](./Day9/day9.md) |
+| **Day 10** | 1661. Average Time of Process | [View Notes](./Day10/day10.md) |
+| **Day 11** | 577. Employee Bonus | [View Notes](./Day11/day11.md) |
+| **Day 12** | 1280. Students and Examinations | [View Notes](./Day12/day12.md) |
+| **Day 13** | 570. Managers with 5 Reports | [View Notes](./Day13/day13.md) |
+| **Day 14** | 1934. Confirmation Rate | [View Notes](./Day14/day14.md) |
+| **Day 15** | 620. Not Boring Movies | [View Notes](./Day15/day15.md) |
+| **Day 16** | 1251. Average Selling Price | [View Notes](./Day16/day16.md) |
+| **Day 17** | 1075. Project Employees I | [View Notes](./Day17/day17.md) |
+| **Day 18** | 1633. Percentage of Users Attended a Contest | [View Notes](./Day18/day18.md) |
+| **Day 19** | 1211. Queries Quality and Percentage | [View Notes](./Day19/day19.md) |
+| **Day 20** | 1193. Monthly Transactions I | [View Notes](./Day20/day20.md) |
+| **Day 21** | 1174. Immediate Food Delivery II | [View Notes](./Day21/day21.md) |
+| **Day 22** | 550. Game Play Analysis IV | [View Notes](./Day22/day22.md) |
+| **Day 23** | 2356. Number of Unique Subjects Taught by Each Teacher | [View Notes](./Day23/day23.md) |
+| **Day 24** | 1141. User Activity for the Past 30 Days I | [View Notes](./Day24/day24.md) |
 
-## Problem List (SQL 50)
+---
+
+<h2 align="center">Problem List (SQL 50)</h2>
 
 ### 01. Select
 - [x] 1757. Recyclable and Low Fat Products
