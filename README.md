@@ -1,77 +1,118 @@
-<h1 align="center">LeetCode SQL 50 - Complete Solutions</h1>
+<h1 align="center">LeetCode SQL 50 - Solutions and Notes</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/SQL-MySQL-blue?style=for-the-badge&logo=mysql" alt="SQL">
-  <img src="https://img.shields.io/badge/LeetCode-SQL%2050-orange?style=for-the-badge&logo=leetcode" alt="LeetCode">
-  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge" alt="Status">
+  A day-by-day record of solving the LeetCode SQL 50 study plan in MySQL,<br>
+  with a clear explanation, a clean query and revision notes for every problem.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-MySQL-blue?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
+  <img src="https://img.shields.io/badge/Platform-LeetCode-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode">
+  <img src="https://img.shields.io/badge/Progress-28%2F50-brightgreen?style=for-the-badge" alt="Progress 28/50">
+  <img src="https://img.shields.io/badge/Status-In%20Progress-yellow?style=for-the-badge" alt="Status">
 </p>
 
 <p align="center">
   <a href="https://github.com/ArpanC6/LeetCode-SQL-50-Solutions/stargazers">
-    <img src="https://img.shields.io/badge/Star%20this%20Repo-Give%20it%20a%20Star-brightgreen?style=for-the-badge" alt="Star this repo">
+    <img src="https://img.shields.io/badge/Star%20this%20repository-if%20it%20helps%20you-brightgreen?style=for-the-badge" alt="Star this repository">
   </a>
 </p>
 
-<br>
+---
 
-Welcome to my **LeetCode SQL 50** journey! 
+## Table of Contents
 
-This repository is a complete guide to mastering SQL for interviews. It includes:
-- **Optimal SQL Queries** (Accepted on LeetCode)
-- **Line-by-line logic explanations**
-- **Hand-drawn Visual Notes** for quick revision
-
-> **Note:** This repository is updated daily. If you find it helpful, please consider giving it a star!
+1. [About](#about)
+2. [Progress Overview](#progress-overview)
+3. [Daily Solutions](#daily-solutions)
+4. [Full Problem List](#full-problem-list)
+5. [What Each Notes File Contains](#what-each-notes-file-contains)
+6. [Repository Structure](#repository-structure)
+7. [Core SQL Concepts Covered](#core-sql-concepts-covered)
+8. [How to Use This Repository](#how-to-use-this-repository)
+9. [Author](#author)
 
 ---
 
-<h2 align="center">Progress Tracker</h2>
+## About
 
-- [x] **01. Select** (5/5)
-- [x] **02. Basic Joins** (9/9)
-- [x] **03. Basic Aggregate Functions** (8/8)
-- [ ] **04. Sorting and Grouping** (5/7)
-- [ ] **05. Advanced Select and Joins** (0/7)
-- [ ] **06. Subqueries** (0/7)
-- [ ] **07. Advanced String Functions** (0/7)
+This repository tracks my progress through the **LeetCode SQL 50** study plan.
+One problem is solved and documented every day. The goal is not only to get
+an Accepted verdict, but to understand why the query works, so that the same
+idea can be rebuilt from scratch in an interview.
 
----
+Every problem includes:
 
-<h2 align="center">Daily Solutions Directory</h2>
+- The problem statement and a worked example
+- A real-life analogy to build intuition
+- A step-by-step build-up of the query
+- The final accepted query
+- Common mistakes and interview tips
 
-| Day | Problem Solved | Link |
-|:---:|:---|:---:|
-| **Day 1** | 1757. Recyclable and Low Fat Products | [View Notes](./Day1/day1.md) |
-| **Day 2** | 584. Find Customer Referee | [View Notes](./Day2/day2.md) |
-| **Day 3** | 595. Big Countries | [View Notes](./Day3/day3.md) |
-| **Day 4** | 1148. Article Views I | [View Notes](./Day4/day4.md) |
-| **Day 5** | 1683. Invalid Tweets | [View Notes](./Day5/day5.md) |
-| **Day 6** | 1378. Replace Employee ID | [View Notes](./Day6/day6.md) |
-| **Day 7** | 1068. Product Sales Analysis I | [View Notes](./Day7/day7.md) |
-| **Day 8** | 1581. Customer Who Visited | [View Notes](./Day8/day8.md) |
-| **Day 9** | 197. Rising Temperature | [View Notes](./Day9/day9.md) |
-| **Day 10** | 1661. Average Time of Process | [View Notes](./Day10/day10.md) |
-| **Day 11** | 577. Employee Bonus | [View Notes](./Day11/day11.md) |
-| **Day 12** | 1280. Students and Examinations | [View Notes](./Day12/day12.md) |
-| **Day 13** | 570. Managers with 5 Reports | [View Notes](./Day13/day13.md) |
-| **Day 14** | 1934. Confirmation Rate | [View Notes](./Day14/day14.md) |
-| **Day 15** | 620. Not Boring Movies | [View Notes](./Day15/day15.md) |
-| **Day 16** | 1251. Average Selling Price | [View Notes](./Day16/day16.md) |
-| **Day 17** | 1075. Project Employees I | [View Notes](./Day17/day17.md) |
-| **Day 18** | 1633. Percentage of Users Attended a Contest | [View Notes](./Day18/day18.md) |
-| **Day 19** | 1211. Queries Quality and Percentage | [View Notes](./Day19/day19.md) |
-| **Day 20** | 1193. Monthly Transactions I | [View Notes](./Day20/day20.md) |
-| **Day 21** | 1174. Immediate Food Delivery II | [View Notes](./Day21/day21.md) |
-| **Day 22** | 550. Game Play Analysis IV | [View Notes](./Day22/day22.md) |
-| **Day 23** | 2356. Number of Unique Subjects Taught by Each Teacher | [View Notes](./Day23/day23.md) |
-| **Day 24** | 1141. User Activity for the Past 30 Days I | [View Notes](./Day24/day24.md) |
-| **Day 25** | 1070. Product Sales Analysis III | [View Notes](./Day25/day25.md) |
-| **Day 26** | 596. Classes With at Least 5 Students | [View Notes](./Day26/day26.md) |
-| **Day 27** | 1729. Find Followers Count | [View Notes](./Day27/day27.md) |
+> This repository is updated daily.
 
 ---
 
-<h2 align="center">Problem List (SQL 50)</h2>
+## Progress Overview
+
+**Overall: 28 of 50 problems solved (56%)**
+
+| Category | Solved | Total | Status |
+|:---|:---:|:---:|:---:|
+| 01. Select | 5 | 5 | Complete |
+| 02. Basic Joins | 9 | 9 | Complete |
+| 03. Basic Aggregate Functions | 8 | 8 | Complete |
+| 04. Sorting and Grouping | 6 | 7 | In progress |
+| 05. Advanced Select and Joins | 0 | 7 | Not started |
+| 06. Subqueries | 0 | 7 | Not started |
+| 07. Advanced String Functions / Regex / Clause | 0 | 7 | Not started |
+
+**By difficulty**
+
+| Difficulty | Solved | Total |
+|:---|:---:|:---:|
+| Easy | 22 | 32 |
+| Medium | 6 | 17 |
+| Hard | 0 | 1 |
+
+---
+
+## Daily Solutions
+
+| Day | Problem | Difficulty | Category | Notes |
+|:---:|:---|:---:|:---|:---:|
+| 1 | 1757. Recyclable and Low Fat Products | Easy | Select | [View](./Day1/day1.md) |
+| 2 | 584. Find Customer Referee | Easy | Select | [View](./Day2/day2.md) |
+| 3 | 595. Big Countries | Easy | Select | [View](./Day3/day3.md) |
+| 4 | 1148. Article Views I | Easy | Select | [View](./Day4/day4.md) |
+| 5 | 1683. Invalid Tweets | Easy | Select | [View](./Day5/day5.md) |
+| 6 | 1378. Replace Employee ID With The Unique Identifier | Easy | Basic Joins | [View](./Day6/day6.md) |
+| 7 | 1068. Product Sales Analysis I | Easy | Basic Joins | [View](./Day7/day7.md) |
+| 8 | 1581. Customer Who Visited but Did Not Make Any Transactions | Easy | Basic Joins | [View](./Day8/day8.md) |
+| 9 | 197. Rising Temperature | Easy | Basic Joins | [View](./Day9/day9.md) |
+| 10 | 1661. Average Time of Process per Machine | Easy | Basic Joins | [View](./Day10/day10.md) |
+| 11 | 577. Employee Bonus | Easy | Basic Joins | [View](./Day11/day11.md) |
+| 12 | 1280. Students and Examinations | Easy | Basic Joins | [View](./Day12/day12.md) |
+| 13 | 570. Managers with at Least 5 Direct Reports | Medium | Basic Joins | [View](./Day13/day13.md) |
+| 14 | 1934. Confirmation Rate | Medium | Basic Joins | [View](./Day14/day14.md) |
+| 15 | 620. Not Boring Movies | Easy | Basic Aggregate Functions | [View](./Day15/day15.md) |
+| 16 | 1251. Average Selling Price | Easy | Basic Aggregate Functions | [View](./Day16/day16.md) |
+| 17 | 1075. Project Employees I | Easy | Basic Aggregate Functions | [View](./Day17/day17.md) |
+| 18 | 1633. Percentage of Users Attended a Contest | Easy | Basic Aggregate Functions | [View](./Day18/day18.md) |
+| 19 | 1211. Queries Quality and Percentage | Easy | Basic Aggregate Functions | [View](./Day19/day19.md) |
+| 20 | 1193. Monthly Transactions I | Medium | Basic Aggregate Functions | [View](./Day20/day20.md) |
+| 21 | 1174. Immediate Food Delivery II | Medium | Basic Aggregate Functions | [View](./Day21/day21.md) |
+| 22 | 550. Game Play Analysis IV | Medium | Basic Aggregate Functions | [View](./Day22/day22.md) |
+| 23 | 2356. Number of Unique Subjects Taught by Each Teacher | Easy | Sorting and Grouping | [View](./Day23/day23.md) |
+| 24 | 1141. User Activity for the Past 30 Days I | Easy | Sorting and Grouping | [View](./Day24/day24.md) |
+| 25 | 1070. Product Sales Analysis III | Medium | Sorting and Grouping | [View](./Day25/day25.md) |
+| 26 | 596. Classes With at Least 5 Students | Easy | Sorting and Grouping | [View](./Day26/day26.md) |
+| 27 | 1729. Find Followers Count | Easy | Sorting and Grouping | [View](./Day27/day27.md) |
+| 28 | 619. Biggest Single Number | Easy | Sorting and Grouping | [View](./Day28/day28.md) |
+
+---
+
+## Full Problem List
 
 ### 01. Select
 - [x] 1757. Recyclable and Low Fat Products
@@ -107,7 +148,7 @@ This repository is a complete guide to mastering SQL for interviews. It includes
 - [x] 1070. Product Sales Analysis III
 - [x] 596. Classes With at Least 5 Students
 - [x] 1729. Find Followers Count
-- [ ] 619. Biggest Single Number
+- [x] 619. Biggest Single Number
 - [ ] 1045. Customers Who Bought All Products
 
 ### 05. Advanced Select and Joins
@@ -136,3 +177,75 @@ This repository is a complete guide to mastering SQL for interviews. It includes
 - [ ] 1484. Group Sold Products By The Date
 - [ ] 1327. List the Products Ordered in a Period
 - [ ] 1517. Find Users With Valid E-Mails
+
+---
+
+## What Each Notes File Contains
+
+Every `dayN.md` file follows the same layout, so any problem can be revised quickly:
+
+| Section | Purpose |
+|:---|:---|
+| Header | Difficulty, topic, LeetCode link, date solved, runtime and status |
+| Problem Statement | Table schema and the task, restated clearly |
+| Real-Life Analogy | A simple picture to build intuition before writing SQL |
+| Example Walkthrough | Input and output traced by hand |
+| Step-by-Step Build | The query built up one clause at a time |
+| Final Query | The accepted solution |
+| Key Concepts | The SQL ideas the problem tests |
+| Common Mistakes | Errors worth remembering |
+| Interview Tips | How to recognize and explain this pattern |
+
+---
+
+## Repository Structure
+
+```text
+LeetCode-SQL-50-Solutions/
+|-- README.md
+|-- Day1/
+|   |-- day1.md
+|-- Day2/
+|   |-- day2.md
+|-- ...
+|-- Day28/
+    |-- day28.md
+```
+
+---
+
+## Core SQL Concepts Covered
+
+| Concept | Where it appears |
+|:---|:---|
+| `SELECT`, `WHERE`, filtering rows | Select |
+| `JOIN` (inner, left), self join | Basic Joins |
+| `GROUP BY` with `COUNT`, `SUM`, `AVG`, `MAX` | Basic Aggregate Functions, Sorting and Grouping |
+| `HAVING` (filtering after grouping) | Sorting and Grouping |
+| `ORDER BY`, `DISTINCT` | Sorting and Grouping |
+| Subqueries in `FROM` (derived tables) | Sorting and Grouping, Subqueries |
+| `NULL` handling with aggregates | Sorting and Grouping |
+
+SQL logical execution order, used throughout the notes:
+
+```text
+FROM -> WHERE -> GROUP BY -> HAVING -> SELECT -> ORDER BY -> LIMIT
+```
+
+---
+
+## How to Use This Repository
+
+1. Open the **Daily Solutions** table and pick a problem.
+2. Read the notes file for that day, up to the Step-by-Step Build section.
+3. Try to write the query yourself on LeetCode before looking at the final query.
+4. Compare your query with the accepted one and read the Common Mistakes section.
+
+---
+
+## Author
+
+**Arpan Chakraborty**
+GitHub: [ArpanC6](https://github.com/ArpanC6)
+
+If this repository helped you, a star is appreciated.
