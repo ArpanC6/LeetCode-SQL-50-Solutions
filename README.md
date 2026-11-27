@@ -8,7 +8,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Language-MySQL-blue?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
   <img src="https://img.shields.io/badge/Platform-LeetCode-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode">
-  <img src="https://img.shields.io/badge/Progress-29%2F50-brightgreen?style=for-the-badge" alt="Progress 29/50">
+  <img src="https://img.shields.io/badge/Progress-30%2F50-brightgreen?style=for-the-badge" alt="Progress 30/50">
   <img src="https://img.shields.io/badge/Status-In%20Progress-yellow?style=for-the-badge" alt="Status">
 </p>
 
@@ -25,12 +25,13 @@
 1. [About](#about)
 2. [Progress Overview](#progress-overview)
 3. [Daily Solutions](#daily-solutions)
-4. [Full Problem List](#full-problem-list)
-5. [What Each Notes File Contains](#what-each-notes-file-contains)
-6. [Repository Structure](#repository-structure)
-7. [Core SQL Concepts Covered](#core-sql-concepts-covered)
-8. [How to Use This Repository](#how-to-use-this-repository)
-9. [Author](#author)
+4. [Revise by Pattern](#revise-by-pattern)
+5. [Full Problem List](#full-problem-list)
+6. [What Each Notes File Contains](#what-each-notes-file-contains)
+7. [Repository Structure](#repository-structure)
+8. [Core SQL Concepts Covered](#core-sql-concepts-covered)
+9. [How to Use This Repository](#how-to-use-this-repository)
+10. [Author](#author)
 
 ---
 
@@ -55,25 +56,27 @@ Every problem includes:
 
 ## Progress Overview
 
-**Overall: 29 of 50 problems solved (58%)**
+**Overall: 30 of 50 problems solved (60%)**
 
-| Category | Solved | Total | Status |
-|:---|:---:|:---:|:---:|
-| 01. Select | 5 | 5 | Complete |
-| 02. Basic Joins | 9 | 9 | Complete |
-| 03. Basic Aggregate Functions | 8 | 8 | Complete |
-| 04. Sorting and Grouping | 7 | 7 | Complete |
-| 05. Advanced Select and Joins | 0 | 7 | Not started |
-| 06. Subqueries | 0 | 7 | Not started |
-| 07. Advanced String Functions / Regex / Clause | 0 | 7 | Not started |
+| Category | Solved | Total | Progress | Status |
+|:---|:---:|:---:|:---|:---:|
+| 01. Select | 5 | 5 | `██████████` | Complete |
+| 02. Basic Joins | 9 | 9 | `██████████` | Complete |
+| 03. Basic Aggregate Functions | 8 | 8 | `██████████` | Complete |
+| 04. Sorting and Grouping | 7 | 7 | `██████████` | Complete |
+| 05. Advanced Select and Joins | 1 | 7 | `█░░░░░░░░░` | In progress |
+| 06. Subqueries | 0 | 7 | `░░░░░░░░░░` | Not started |
+| 07. Advanced String Functions / Regex / Clause | 0 | 7 | `░░░░░░░░░░` | Not started |
 
 **By difficulty**
 
 | Difficulty | Solved | Total |
 |:---|:---:|:---:|
-| Easy | 22 | 32 |
+| Easy | 23 | 32 |
 | Medium | 7 | 17 |
 | Hard | 0 | 1 |
+
+**Next problem:** 1789. Primary Department for Each Employee
 
 ---
 
@@ -110,6 +113,21 @@ Every problem includes:
 | 27 | 1729. Find Followers Count | Easy | Sorting and Grouping | [View](./Day27/day27.md) |
 | 28 | 619. Biggest Single Number | Easy | Sorting and Grouping | [View](./Day28/day28.md) |
 | 29 | 1045. Customers Who Bought All Products | Medium | Sorting and Grouping | [View](./Day29/day29.md) |
+| 30 | 1731. The Number of Employees Which Report to Each Employee | Easy | Advanced Select and Joins | [View](./Day30/day30.md) |
+
+---
+
+## Revise by Pattern
+
+| Pattern | Practice with |
+|:---|:---|
+| Self join | [197](./Day9/day9.md), [570](./Day13/day13.md), [1731](./Day30/day30.md) |
+| Finding missing matches | [1581](./Day8/day8.md), [577](./Day11/day11.md) |
+| Keeping every combination | [1280](./Day12/day12.md) |
+| Rates and percentages | [1934](./Day14/day14.md), [1633](./Day18/day18.md), [1211](./Day19/day19.md) |
+| First event per group | [1070](./Day25/day25.md), [1174](./Day21/day21.md), [550](./Day22/day22.md) |
+| Filtering groups | [596](./Day26/day26.md), [1045](./Day29/day29.md) |
+| Counting unique values | [2356](./Day23/day23.md), [1141](./Day24/day24.md), [1045](./Day29/day29.md) |
 
 ---
 
@@ -153,7 +171,7 @@ Every problem includes:
 - [x] 1045. Customers Who Bought All Products
 
 ### 05. Advanced Select and Joins
-- [ ] 1731. The Number of Employees Which Report to Each Employee
+- [x] 1731. The Number of Employees Which Report to Each Employee
 - [ ] 1789. Primary Department for Each Employee
 - [ ] 610. Triangle Judgement
 - [ ] 180. Consecutive Numbers
@@ -183,11 +201,11 @@ Every problem includes:
 
 ## What Each Notes File Contains
 
-Every `dayN.md` file follows the same layout, so any problem can be revised quickly:
+The `dayN.md` files follow a common layout, so any problem can be revised quickly:
 
 | Section | Purpose |
 |:---|:---|
-| Header | Difficulty, topic, LeetCode link, date solved, runtime and status |
+| Header | Difficulty, topic, date solved, runtime and status |
 | Problem Statement | Table schema and the task, restated clearly |
 | Real-Life Analogy | A simple picture to build intuition before writing SQL |
 | Example Walkthrough | Input and output traced by hand |
@@ -209,8 +227,8 @@ LeetCode-SQL-50-Solutions/
 |-- Day2/
 |   |-- day2.md
 |-- ...
-|-- Day29/
-    |-- day29.md
+|-- Day30/
+    |-- day30.md
 ```
 
 ---
@@ -220,19 +238,21 @@ LeetCode-SQL-50-Solutions/
 | Concept | Where it appears |
 |:---|:---|
 | `SELECT`, `WHERE`, filtering rows | Select |
-| `JOIN` (inner, left), self join | Basic Joins |
-| `GROUP BY` with `COUNT`, `SUM`, `AVG`, `MAX` | Basic Aggregate Functions, Sorting and Grouping |
+| `JOIN` (inner, left) | Basic Joins |
+| Self join | Basic Joins, Advanced Select and Joins |
+| `GROUP BY` with `COUNT`, `SUM`, `AVG`, `MAX` | Basic Aggregate Functions, Sorting and Grouping, Advanced Select and Joins |
+| `ROUND` | Basic Aggregate Functions, Advanced Select and Joins |
 | `COUNT(DISTINCT ...)` | Sorting and Grouping |
 | `HAVING` (filtering after grouping) | Sorting and Grouping |
 | `ORDER BY`, `DISTINCT` | Sorting and Grouping |
-| Subqueries in `FROM` (derived tables) | Sorting and Grouping, Subqueries |
+| Subqueries in `FROM` (derived tables) | Sorting and Grouping |
 | Subqueries in `HAVING` (compare a group with a total) | Sorting and Grouping |
 | `NULL` handling with aggregates | Sorting and Grouping |
 
 SQL logical execution order, used throughout the notes:
 
 ```text
-FROM -> WHERE -> GROUP BY -> HAVING -> SELECT -> ORDER BY -> LIMIT
+FROM / JOIN -> WHERE -> GROUP BY -> HAVING -> SELECT -> ORDER BY -> LIMIT
 ```
 
 ---
@@ -243,6 +263,7 @@ FROM -> WHERE -> GROUP BY -> HAVING -> SELECT -> ORDER BY -> LIMIT
 2. Read the notes file for that day, up to the Step-by-Step Build section.
 3. Try to write the query yourself on LeetCode before looking at the final query.
 4. Compare your query with the accepted one and read the Common Mistakes section.
+5. Use **Revise by Pattern** to practise similar problems together.
 
 ---
 
